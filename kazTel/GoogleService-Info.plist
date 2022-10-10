@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>790638252091-r5u0vo7ham1iinj3hohphfab7g0kcm4f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.790638252091-r5u0vo7ham1iinj3hohphfab7g0kcm4f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>790638252091-qra8rok6p4rijnmc8t5ii7u99edl4bri.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCNNAoc-cn6vYjqTGu2I8o2jmeDpGV6PE4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>790638252091</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>realsoftApp.kz</string>
+	<key>PROJECT_ID</key>
+	<string>pushnotification-c3b6c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pushnotification-c3b6c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:790638252091:ios:bacb17f2ceacd609e84c1e</string>
+	<key>DATABASE_URL</key>
+	<string>https://pushnotification-c3b6c.firebaseio.com</string>
+</dict>
+</plist>
