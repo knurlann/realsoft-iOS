@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>790638252091-r5u0vo7ham1iinj3hohphfab7g0kcm4f.apps.googleusercontent.com</string>
+	<string>790638252091-18750ibh69c3rl6h5v0n9s4vqa02r01j.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.790638252091-r5u0vo7ham1iinj3hohphfab7g0kcm4f</string>
+	<string>com.googleusercontent.apps.790638252091-18750ibh69c3rl6h5v0n9s4vqa02r01j</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>790638252091-qra8rok6p4rijnmc8t5ii7u99edl4bri.apps.googleusercontent.com</string>
+	<string>790638252091-n1vgnmjksc2ufvjp5nfs37r6ds5fi9g4.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCNNAoc-cn6vYjqTGu2I8o2jmeDpGV6PE4</string>
 	<key>GCM_SENDER_ID</key>
@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:790638252091:ios:bacb17f2ceacd609e84c1e</string>
+	<string>1:790638252091:ios:8fa4aa1c47a12f4ee84c1e</string>
 	<key>DATABASE_URL</key>
 	<string>https://pushnotification-c3b6c.firebaseio.com</string>
 </dict>

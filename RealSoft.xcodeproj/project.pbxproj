@@ -12,6 +12,8 @@
 		5477E648251E125B0047B80E /* keyBoardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E646251E125B0047B80E /* keyBoardHelper.swift */; };
 		5477E64C251E1DD70047B80E /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E64A251E1DD70047B80E /* UIAlertControllerExtension.swift */; };
 		5477E64D251E1DD70047B80E /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E64B251E1DD70047B80E /* NSObjectExtension.swift */; };
+		54A6D41328F417E400B46C30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A6D41228F417E400B46C30 /* GoogleService-Info.plist */; };
+		54A6D41528F4180300B46C30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A6D41428F4180300B46C30 /* GoogleService-Info.plist */; };
 		54B3898C2578A9AF00499392 /* SharedCookieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3898B2578A9AF00499392 /* SharedCookieManager.swift */; };
 		54D058CB252366470057A167 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D058CA252366470057A167 /* HomeViewController.swift */; };
 		54D058CD2523FF3D0057A167 /* WKWebViewDownloadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D058CC2523FF3D0057A167 /* WKWebViewDownloadHelper.swift */; };
@@ -27,7 +29,6 @@
 		54E4ADA720C1C2F200CA7EBA /* GlobalUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADA620C1C2F200CA7EBA /* GlobalUtilities.swift */; };
 		54E4ADA920C1C43000CA7EBA /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADA820C1C43000CA7EBA /* PostViewController.swift */; };
 		54E4ADAB20C1DB1C00CA7EBA /* WelcomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADAA20C1DB1C00CA7EBA /* WelcomePageController.swift */; };
-		54ED11BF255005F00038203B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54ED11BE255005F00038203B /* GoogleService-Info.plist */; };
 		54F904EF253CE5DF0017B4DB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F904EE253CE5DF0017B4DB /* Reachability.swift */; };
 		CF468E230D21B340A9316AE2 /* Pods_kazTel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C7882A03C7CF3FE3D1AC25 /* Pods_kazTel.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,8 @@
 		5477E646251E125B0047B80E /* keyBoardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = keyBoardHelper.swift; sourceTree = "<group>"; };
 		5477E64A251E1DD70047B80E /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
 		5477E64B251E1DD70047B80E /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		54A6D41228F417E400B46C30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54A6D41428F4180300B46C30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54B3898B2578A9AF00499392 /* SharedCookieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCookieManager.swift; sourceTree = "<group>"; };
 		54D058CA252366470057A167 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		54D058CC2523FF3D0057A167 /* WKWebViewDownloadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewDownloadHelper.swift; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		54E4ADA620C1C2F200CA7EBA /* GlobalUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalUtilities.swift; sourceTree = "<group>"; };
 		54E4ADA820C1C43000CA7EBA /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		54E4ADAA20C1DB1C00CA7EBA /* WelcomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
-		54ED11BE255005F00038203B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54F904EE253CE5DF0017B4DB /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		5C1FF9EA21163E9353742758 /* Pods-kazTel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazTel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kazTel/Pods-kazTel.debug.xcconfig"; sourceTree = "<group>"; };
 		7D5BDF1BF318C7A974431613 /* Pods-kazTel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazTel.release.xcconfig"; path = "Pods/Target Support Files/Pods-kazTel/Pods-kazTel.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		54E4AD7F20C167FB00CA7EBA = {
 			isa = PBXGroup;
 			children = (
+				54A6D41428F4180300B46C30 /* GoogleService-Info.plist */,
 				54E4AD8A20C167FB00CA7EBA /* kazTel */,
 				54E4AD8920C167FB00CA7EBA /* Products */,
 				5D3C2E8BD4F04AB8B28668A7 /* Pods */,
@@ -124,7 +127,7 @@
 		54E4AD8A20C167FB00CA7EBA /* kazTel */ = {
 			isa = PBXGroup;
 			children = (
-				54ED11BE255005F00038203B /* GoogleService-Info.plist */,
+				54A6D41228F417E400B46C30 /* GoogleService-Info.plist */,
 				5477E649251E1DD70047B80E /* Utilities */,
 				5477E644251E125B0047B80E /* Extensions */,
 				540AC8FD20F60C7400F9679B /* kazTel.entitlements */,
@@ -235,7 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54E4AD9920C167FD00CA7EBA /* LaunchScreen.storyboard in Resources */,
-				54ED11BF255005F00038203B /* GoogleService-Info.plist in Resources */,
+				54A6D41328F417E400B46C30 /* GoogleService-Info.plist in Resources */,
+				54A6D41528F4180300B46C30 /* GoogleService-Info.plist in Resources */,
 				54E4AD9620C167FD00CA7EBA /* Assets.xcassets in Resources */,
 				54E4AD9120C167FB00CA7EBA /* Main.storyboard in Resources */,
 			);
