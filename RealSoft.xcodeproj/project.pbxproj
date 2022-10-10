@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5466690E20E50499000430F9 /* SectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466690D20E50499000430F9 /* SectionController.swift */; };
+		5477E647251E125B0047B80E /* alertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E645251E125B0047B80E /* alertHelper.swift */; };
+		5477E648251E125B0047B80E /* keyBoardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E646251E125B0047B80E /* keyBoardHelper.swift */; };
+		5477E64C251E1DD70047B80E /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E64A251E1DD70047B80E /* UIAlertControllerExtension.swift */; };
+		5477E64D251E1DD70047B80E /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E64B251E1DD70047B80E /* NSObjectExtension.swift */; };
+		54B3898C2578A9AF00499392 /* SharedCookieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3898B2578A9AF00499392 /* SharedCookieManager.swift */; };
+		54D058CB252366470057A167 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D058CA252366470057A167 /* HomeViewController.swift */; };
+		54D058CD2523FF3D0057A167 /* WKWebViewDownloadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D058CC2523FF3D0057A167 /* WKWebViewDownloadHelper.swift */; };
+		54D364EE20EAF9A800E901F6 /* NewEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D364ED20EAF9A800E901F6 /* NewEmailViewController.swift */; };
+		54E4AD8C20C167FB00CA7EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4AD8B20C167FB00CA7EBA /* AppDelegate.swift */; };
+		54E4AD8E20C167FB00CA7EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4AD8D20C167FB00CA7EBA /* ViewController.swift */; };
+		54E4AD9120C167FB00CA7EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E4AD8F20C167FB00CA7EBA /* Main.storyboard */; };
+		54E4AD9420C167FB00CA7EBA /* kazTel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54E4AD9220C167FB00CA7EBA /* kazTel.xcdatamodeld */; };
+		54E4AD9620C167FD00CA7EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E4AD9520C167FD00CA7EBA /* Assets.xcassets */; };
+		54E4AD9920C167FD00CA7EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E4AD9720C167FD00CA7EBA /* LaunchScreen.storyboard */; };
+		54E4ADA120C185D600CA7EBA /* GmailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADA020C185D600CA7EBA /* GmailResponse.swift */; };
+		54E4ADA320C1887000CA7EBA /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADA220C1887000CA7EBA /* Email.swift */; };
+		54E4ADA720C1C2F200CA7EBA /* GlobalUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADA620C1C2F200CA7EBA /* GlobalUtilities.swift */; };
+		54E4ADA920C1C43000CA7EBA /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADA820C1C43000CA7EBA /* PostViewController.swift */; };
+		54E4ADAB20C1DB1C00CA7EBA /* WelcomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4ADAA20C1DB1C00CA7EBA /* WelcomePageController.swift */; };
+		54ED11BF255005F00038203B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54ED11BE255005F00038203B /* GoogleService-Info.plist */; };
+		54F904EF253CE5DF0017B4DB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F904EE253CE5DF0017B4DB /* Reachability.swift */; };
+		CF468E230D21B340A9316AE2 /* Pods_kazTel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C7882A03C7CF3FE3D1AC25 /* Pods_kazTel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23C7882A03C7CF3FE3D1AC25 /* Pods_kazTel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazTel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AC8FD20F60C7400F9679B /* kazTel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kazTel.entitlements; sourceTree = "<group>"; };
+		5466690D20E50499000430F9 /* SectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionController.swift; sourceTree = "<group>"; };
+		5477E645251E125B0047B80E /* alertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertHelper.swift; sourceTree = "<group>"; };
+		5477E646251E125B0047B80E /* keyBoardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = keyBoardHelper.swift; sourceTree = "<group>"; };
+		5477E64A251E1DD70047B80E /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		5477E64B251E1DD70047B80E /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		54B3898B2578A9AF00499392 /* SharedCookieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCookieManager.swift; sourceTree = "<group>"; };
+		54D058CA252366470057A167 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54D058CC2523FF3D0057A167 /* WKWebViewDownloadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewDownloadHelper.swift; sourceTree = "<group>"; };
+		54D364ED20EAF9A800E901F6 /* NewEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmailViewController.swift; sourceTree = "<group>"; };
+		54E4AD8820C167FB00CA7EBA /* kazTel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kazTel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E4AD8B20C167FB00CA7EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54E4AD8D20C167FB00CA7EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54E4AD9020C167FB00CA7EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54E4AD9320C167FB00CA7EBA /* kazTel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kazTel.xcdatamodel; sourceTree = "<group>"; };
+		54E4AD9520C167FD00CA7EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54E4AD9820C167FD00CA7EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54E4AD9A20C167FD00CA7EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E4ADA020C185D600CA7EBA /* GmailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailResponse.swift; sourceTree = "<group>"; };
+		54E4ADA220C1887000CA7EBA /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		54E4ADA620C1C2F200CA7EBA /* GlobalUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalUtilities.swift; sourceTree = "<group>"; };
+		54E4ADA820C1C43000CA7EBA /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		54E4ADAA20C1DB1C00CA7EBA /* WelcomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
+		54ED11BE255005F00038203B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54F904EE253CE5DF0017B4DB /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5C1FF9EA21163E9353742758 /* Pods-kazTel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazTel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kazTel/Pods-kazTel.debug.xcconfig"; sourceTree = "<group>"; };
+		7D5BDF1BF318C7A974431613 /* Pods-kazTel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazTel.release.xcconfig"; path = "Pods/Target Support Files/Pods-kazTel/Pods-kazTel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E4AD8520C167FB00CA7EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF468E230D21B340A9316AE2 /* Pods_kazTel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5477E644251E125B0047B80E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5477E645251E125B0047B80E /* alertHelper.swift */,
+				5477E646251E125B0047B80E /* keyBoardHelper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5477E649251E1DD70047B80E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5477E64A251E1DD70047B80E /* UIAlertControllerExtension.swift */,
+				5477E64B251E1DD70047B80E /* NSObjectExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		54CA7D842579B2D10066F33B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				54E4AD8D20C167FB00CA7EBA /* ViewController.swift */,
+				54D364ED20EAF9A800E901F6 /* NewEmailViewController.swift */,
+				54D058CA252366470057A167 /* HomeViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		54E4AD7F20C167FB00CA7EBA = {
+			isa = PBXGroup;
+			children = (
+				54E4AD8A20C167FB00CA7EBA /* kazTel */,
+				54E4AD8920C167FB00CA7EBA /* Products */,
+				5D3C2E8BD4F04AB8B28668A7 /* Pods */,
+				854336646036310DC18DF8E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54E4AD8920C167FB00CA7EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54E4AD8820C167FB00CA7EBA /* kazTel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E4AD8A20C167FB00CA7EBA /* kazTel */ = {
+			isa = PBXGroup;
+			children = (
+				54ED11BE255005F00038203B /* GoogleService-Info.plist */,
+				5477E649251E1DD70047B80E /* Utilities */,
+				5477E644251E125B0047B80E /* Extensions */,
+				540AC8FD20F60C7400F9679B /* kazTel.entitlements */,
+				54E4ADAA20C1DB1C00CA7EBA /* WelcomePageController.swift */,
+				5466690D20E50499000430F9 /* SectionController.swift */,
+				54E4ADA820C1C43000CA7EBA /* PostViewController.swift */,
+				54E4AD8B20C167FB00CA7EBA /* AppDelegate.swift */,
+				54CA7D842579B2D10066F33B /* VC */,
+				54E4ADA020C185D600CA7EBA /* GmailResponse.swift */,
+				54E4ADA220C1887000CA7EBA /* Email.swift */,
+				54E4AD8F20C167FB00CA7EBA /* Main.storyboard */,
+				54E4AD9520C167FD00CA7EBA /* Assets.xcassets */,
+				54E4AD9720C167FD00CA7EBA /* LaunchScreen.storyboard */,
+				54E4AD9A20C167FD00CA7EBA /* Info.plist */,
+				54E4AD9220C167FB00CA7EBA /* kazTel.xcdatamodeld */,
+				54E4ADA620C1C2F200CA7EBA /* GlobalUtilities.swift */,
+				54D058CC2523FF3D0057A167 /* WKWebViewDownloadHelper.swift */,
+				54F904EE253CE5DF0017B4DB /* Reachability.swift */,
+				54B3898B2578A9AF00499392 /* SharedCookieManager.swift */,
+			);
+			path = kazTel;
+			sourceTree = "<group>";
+		};
+		5D3C2E8BD4F04AB8B28668A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C1FF9EA21163E9353742758 /* Pods-kazTel.debug.xcconfig */,
+				7D5BDF1BF318C7A974431613 /* Pods-kazTel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		854336646036310DC18DF8E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C7882A03C7CF3FE3D1AC25 /* Pods_kazTel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54E4AD8720C167FB00CA7EBA /* kazTel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E4AD9D20C167FD00CA7EBA /* Build configuration list for PBXNativeTarget "kazTel" */;
+			buildPhases = (
+				2DF8A4A68853D17480683080 /* [CP] Check Pods Manifest.lock */,
+				54E4AD8420C167FB00CA7EBA /* Sources */,
+				54E4AD8520C167FB00CA7EBA /* Frameworks */,
+				54E4AD8620C167FB00CA7EBA /* Resources */,
+				757AB8C56DE2F9E1483AC550 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kazTel;
+			productName = kazTel;
+			productReference = 54E4AD8820C167FB00CA7EBA /* kazTel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54E4AD8020C167FB00CA7EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Нурлан";
+				TargetAttributes = {
+					54E4AD8720C167FB00CA7EBA = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 54E4AD8320C167FB00CA7EBA /* Build configuration list for PBXProject "RealSoft" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54E4AD7F20C167FB00CA7EBA;
+			productRefGroup = 54E4AD8920C167FB00CA7EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54E4AD8720C167FB00CA7EBA /* kazTel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E4AD8620C167FB00CA7EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E4AD9920C167FD00CA7EBA /* LaunchScreen.storyboard in Resources */,
+				54ED11BF255005F00038203B /* GoogleService-Info.plist in Resources */,
+				54E4AD9620C167FD00CA7EBA /* Assets.xcassets in Resources */,
+				54E4AD9120C167FB00CA7EBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF8A4A68853D17480683080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kazTel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757AB8C56DE2F9E1483AC550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazTel/Pods-kazTel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazTel/Pods-kazTel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kazTel/Pods-kazTel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E4AD8420C167FB00CA7EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E4ADA920C1C43000CA7EBA /* PostViewController.swift in Sources */,
+				5477E64D251E1DD70047B80E /* NSObjectExtension.swift in Sources */,
+				54E4AD9420C167FB00CA7EBA /* kazTel.xcdatamodeld in Sources */,
+				5477E648251E125B0047B80E /* keyBoardHelper.swift in Sources */,
+				54D364EE20EAF9A800E901F6 /* NewEmailViewController.swift in Sources */,
+				54E4ADA320C1887000CA7EBA /* Email.swift in Sources */,
+				54F904EF253CE5DF0017B4DB /* Reachability.swift in Sources */,
+				5477E647251E125B0047B80E /* alertHelper.swift in Sources */,
+				54E4ADAB20C1DB1C00CA7EBA /* WelcomePageController.swift in Sources */,
+				54E4AD8E20C167FB00CA7EBA /* ViewController.swift in Sources */,
+				5466690E20E50499000430F9 /* SectionController.swift in Sources */,
+				54D058CD2523FF3D0057A167 /* WKWebViewDownloadHelper.swift in Sources */,
+				54D058CB252366470057A167 /* HomeViewController.swift in Sources */,
+				54E4AD8C20C167FB00CA7EBA /* AppDelegate.swift in Sources */,
+				54E4ADA720C1C2F200CA7EBA /* GlobalUtilities.swift in Sources */,
+				54B3898C2578A9AF00499392 /* SharedCookieManager.swift in Sources */,
+				5477E64C251E1DD70047B80E /* UIAlertControllerExtension.swift in Sources */,
+				54E4ADA120C185D600CA7EBA /* GmailResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54E4AD8F20C167FB00CA7EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E4AD9020C167FB00CA7EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54E4AD9720C167FD00CA7EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E4AD9820C167FD00CA7EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54E4AD9B20C167FD00CA7EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		54E4AD9C20C167FD00CA7EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54E4AD9E20C167FD00CA7EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1FF9EA21163E9353742758 /* Pods-kazTel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = kazTel/kazTel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8T8V66H2B;
+				INFOPLIST_FILE = kazTel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.48;
+				PRODUCT_BUNDLE_IDENTIFIER = realsoftApp.kz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54E4AD9F20C167FD00CA7EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5BDF1BF318C7A974431613 /* Pods-kazTel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = kazTel/kazTel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8T8V66H2B;
+				INFOPLIST_FILE = kazTel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.48;
+				PRODUCT_BUNDLE_IDENTIFIER = realsoftApp.kz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E4AD8320C167FB00CA7EBA /* Build configuration list for PBXProject "RealSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E4AD9B20C167FD00CA7EBA /* Debug */,
+				54E4AD9C20C167FD00CA7EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E4AD9D20C167FD00CA7EBA /* Build configuration list for PBXNativeTarget "kazTel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E4AD9E20C167FD00CA7EBA /* Debug */,
+				54E4AD9F20C167FD00CA7EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54E4AD9220C167FB00CA7EBA /* kazTel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54E4AD9320C167FB00CA7EBA /* kazTel.xcdatamodel */,
+			);
+			currentVersion = 54E4AD9320C167FB00CA7EBA /* kazTel.xcdatamodel */;
+			path = kazTel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54E4AD8020C167FB00CA7EBA /* Project object */;
+}
